@@ -8,6 +8,7 @@ namespace simple_shapes {
 		enum { max_len = 100 }; // максимальная длина
 		int len; // текущая длина
 		shape *cont[max_len];
+
 	public:
 		void In(ifstream &ifst);     // ввод 
 		void Out(ofstream &ofst);    // вывод 
