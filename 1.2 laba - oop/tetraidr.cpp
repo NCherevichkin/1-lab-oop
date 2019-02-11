@@ -1,0 +1,17 @@
+#include "tetraidr_atd.h"
+using namespace std;
+namespace simple_shapes {
+	// Ввод параметров тетраидра
+	void tetraidr::InData(ifstream &ifst) {
+		ifst >> a;
+	}
+} // end simple_shapes namespace
+
+using namespace std;
+namespace simple_shapes {
+	// Вывод параметров тетраидра
+	void tetraidr::Out(ofstream &ofst) {
+		ofst << "It is Tetraidr: r = "
+			<< a << endl;
+	}
+} // end simple_shapes namespace

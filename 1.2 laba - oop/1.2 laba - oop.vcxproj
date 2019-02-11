@@ -114,6 +114,7 @@
     <ClInclude Include="box_atd.h" />
     <ClInclude Include="shape_atd.h" />
     <ClInclude Include="share_atd.h" />
+    <ClInclude Include="tetraidr_atd.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="containers.cpp" />
@@ -121,6 +122,7 @@
     <ClCompile Include="boxes.cpp" />
     <ClCompile Include="shapes.cpp" />
     <ClCompile Include="shares.cpp" />
+    <ClCompile Include="tetraidr.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
