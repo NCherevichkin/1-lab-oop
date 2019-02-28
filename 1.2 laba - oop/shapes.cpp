@@ -7,6 +7,18 @@ using namespace std;
 #include "shape_atd.h"
 
 namespace simple_shapes {
+
+	//----------------------------------------------------
+	// Ввод параметров фигуры
+	void shape::InData(ifstream &ifst) {
+		ifst >> temp;
+	}
+
+	//----------------------------------------------------
+	// Вывод параметров фигуры
+	void shape::Out(ofstream &ofst) {
+		ofst << "Melting point = " << temp << " °C " << endl;
+	}
 	// Ввод параметров обобщенной фигуры 
 	shape* shape::In(ifstream &ifst) {
 		shape *sp;

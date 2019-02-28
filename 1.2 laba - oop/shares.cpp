@@ -5,6 +5,7 @@ namespace simple_shapes {
 	void share::InData(ifstream &ifst) 
 	{
 		ifst >> rad;
+		shape::InData(ifst);
 	}
 } // end simple_shapes namespace
 
@@ -15,5 +16,6 @@ namespace simple_shapes {
 	{
 		ofst << "It is Sphere: r = "
 			<< rad << endl;
+		shape::Out(ofst);
 	}
 } // end simple_shapes namespace
