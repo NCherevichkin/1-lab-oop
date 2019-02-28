@@ -12,6 +12,9 @@ namespace simple_shapes {
 	public:
 		void In(ifstream &ifst);     // ввод 
 		void Out(ofstream &ofst);    // вывод 
+		//------
+		void V(ofstream &ofst); // вывод объема
+		//------
 		void Clear();  // очистка контейнера от фигур
 		container();    // инициализация контейнера
 		~container() { Clear(); } // утилизация контейнера
