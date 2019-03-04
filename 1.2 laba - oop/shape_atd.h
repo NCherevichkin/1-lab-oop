@@ -16,6 +16,9 @@ namespace simple_shapes {
 		//-------
 		virtual double V() = 0; // вычисление объема
 		//-------
+		 // сравнение двух объектов
+		bool Compare(shape &other);
 	};
+	
 } // end simple_shapes namespace
 #endif
