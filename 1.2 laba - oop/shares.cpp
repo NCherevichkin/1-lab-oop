@@ -16,4 +16,8 @@ namespace simple_shapes {
 		ofst << "It is Sphere: r = "
 			<< rad << endl;
 	}
+	void share::OutShare(ofstream &ofst)
+	{
+		Out(ofst);
+	}
 } // end simple_shapes namespace
