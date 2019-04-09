@@ -122,6 +122,8 @@
     <ClCompile Include="boxes.cpp" />
     <ClCompile Include="shapes.cpp" />
     <ClCompile Include="shares.cpp" />
+    <ClCompile Include="Vboxes.cpp" />
+    <ClCompile Include="Vshare.cpp" />
     <ClCompile Include="tetraidr.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

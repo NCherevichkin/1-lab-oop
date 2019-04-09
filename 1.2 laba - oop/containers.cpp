@@ -26,6 +26,7 @@ namespace simple_shapes {
 		for (int i = 0; i < len; i++) {
 			ofst << i << ": ";
 			cont[i]->Out(ofst);
+			ofst << "V = " << cont[i]->V() << endl;
 		}
 	}
 } // end simple_shapes namespace

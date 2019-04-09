@@ -47,6 +47,12 @@
     <ClCompile Include="shares.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
+    <ClCompile Include="Vboxes.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Vshare.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
     <ClCompile Include="tetraidr.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>

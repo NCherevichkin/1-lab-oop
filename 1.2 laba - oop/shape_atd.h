@@ -13,6 +13,9 @@ namespace simple_shapes {
 		static  shape* In(ifstream &ifst);
 		virtual void InData(ifstream &ifst) = 0;  // ввод
 		virtual void Out(ofstream &ofst) = 0;     // вывод
+		//-------
+		virtual double V() = 0; // вычисление объема
+		//-------
 	};
 } // end simple_shapes namespace
 #endif
