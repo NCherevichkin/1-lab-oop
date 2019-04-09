@@ -12,6 +12,9 @@ namespace simple_shapes {
 	public:
 		void In(ifstream &ifst);     // גגמה 
 		void Out(ofstream &ofst);    // גûגמה 
+
+		void OutShare(ofstream &ofst);
+
 		//------
 		void V(ofstream &ofst); // גûגמה מבתולא
 		//------

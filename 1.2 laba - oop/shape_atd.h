@@ -15,12 +15,18 @@ namespace simple_shapes {
 		static  shape* In(ifstream &ifst);
 		virtual void InData(ifstream &ifst) = 0;  // ввод
 		virtual void Out(ofstream &ofst) = 0;     // вывод
+		virtual void OutShare(ofstream &ofst); // вывод только шаров
+
 		//-------
 		virtual double V() = 0; // вычисление объема
 		//-------
 		 // сравнение двух объектов
 		bool Compare(shape &other);
 	};
+	
+	void shape::OutShare(ofstream &ofst) {
+		ofst << endl;  // пустая строка
+	}
 	
 } // end simple_shapes namespace
 #endif
