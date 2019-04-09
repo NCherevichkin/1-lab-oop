@@ -15,6 +15,7 @@ namespace simple_shapes {
 		//------
 		void V(ofstream &ofst); // вывод объема
 		//------
+		void Sort(); // сортировка контейнера
 		void Clear();  // очистка контейнера от фигур
 		container();    // инициализация контейнера
 		~container() { Clear(); } // утилизация контейнера

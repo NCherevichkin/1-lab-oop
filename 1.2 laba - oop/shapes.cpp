@@ -42,5 +42,10 @@ namespace simple_shapes {
 		sp->InData(ifst);
 		return sp;
 	}
+	//-----------------------------------------------------
+	// сравнение двух объектов
+	bool shape::Compare(shape &other) {
+		return V() < other.V();
+	}
 } // end simple_shapes namespace
 
