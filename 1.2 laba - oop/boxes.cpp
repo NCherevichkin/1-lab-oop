@@ -5,6 +5,7 @@ namespace simple_shapes {
 	void box::InData(ifstream &ifst)
 	{
 		ifst >> x >> y >> z;
+		shape::InData(ifst);
 	}
 } // end simple_shapes namespace
 
@@ -15,5 +16,6 @@ namespace simple_shapes {
 	{
 		ofst << "It is Box: x = " << x
 			<< ", y = " << y << ", z = " << z << endl;
+		shape::Out(ofst);
 	}
 } // end simple_shapes namespace
