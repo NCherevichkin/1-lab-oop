@@ -125,6 +125,7 @@
     <ClCompile Include="Vboxes.cpp" />
     <ClCompile Include="Vshare.cpp" />
     <ClCompile Include="tetraidr.cpp" />
+    <ClCompile Include="Vtetraidr.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
