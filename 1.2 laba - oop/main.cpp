@@ -38,7 +38,7 @@ int main()
 	begin->In(in);
 	begin->Sort();
 	begin->Out(out);
-
+	begin->OutShare(out);
 	cout << "Stop" << endl;
 
 	in.close();

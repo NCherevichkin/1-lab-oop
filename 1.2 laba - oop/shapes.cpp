@@ -47,5 +47,8 @@ namespace simple_shapes {
 	bool shape::Compare(shape &other) {
 		return V() < other.V();
 	}
+	void shape::OutShare(ofstream &ofst) {
+		ofst << endl;  // пустая строка
+	}
 } // end simple_shapes namespace
 

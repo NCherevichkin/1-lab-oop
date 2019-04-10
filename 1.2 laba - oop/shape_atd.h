@@ -24,9 +24,7 @@ namespace simple_shapes {
 		bool Compare(shape &other);
 	};
 	
-	void shape::OutShare(ofstream &ofst) {
-		ofst << endl;  // пустая строка
-	}
+	
 	
 } // end simple_shapes namespace
 #endif

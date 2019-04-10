@@ -20,7 +20,7 @@ namespace simple_shapes {
 	}
 
 	// Вывод содержимого контейнера
-	/*void container::Out(ofstream &ofst) {
+	void container::Out(ofstream &ofst) {
 		ofst << "Container contents " << len
 			<< " elements." << endl;
 		for (int i = 0; i < len; i++) {
@@ -28,7 +28,7 @@ namespace simple_shapes {
 			cont[i]->Out(ofst);
 			ofst << "V = " << cont[i]->V() << endl;
 		}
-	}*/
+	}
 	// Сортировка содержимого контейнера
 	void container::Sort() {
 		for (int i = 0; i < len - 1; i++) {
