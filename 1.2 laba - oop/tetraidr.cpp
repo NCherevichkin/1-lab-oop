@@ -4,6 +4,7 @@ namespace simple_shapes {
 	// Ввод параметров тетраидра
 	void tetraidr::InData(ifstream &ifst) {
 		ifst >> a;
+		shape::InData(ifst);
 	}
 } // end simple_shapes namespace
 
