@@ -26,5 +26,8 @@ namespace simple_shapes {
 		sp->InData(ifst);
 		return sp;
 	}
+	void shape::OutShare(ofstream &ofst) {
+		ofst << endl; // пустая строка
+	}
 } // end simple_shapes namespace
 

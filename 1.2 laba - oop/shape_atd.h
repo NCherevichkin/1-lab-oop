@@ -17,9 +17,8 @@ namespace simple_shapes {
 
 	};
 	
-	void shape::OutShare(ofstream &ofst) {
-		ofst << endl;  // пустая строка
-	}
+
+	
 	
 } // end simple_shapes namespace
 #endif

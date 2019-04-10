@@ -37,6 +37,7 @@ int main()
 	simple_shapes::container* begin = new simple_shapes::container;
 	begin->In(in);
 	begin->Out(out);
+	begin->OutShare(out);
 
 	cout << "Stop" << endl;
 
